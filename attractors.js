@@ -44,18 +44,14 @@ class Attractor {
 }
 
 var ra = 2.5;
-
 var G = 0.07;
-
 var planet;
-
 var orbs = [];
 
-//var o = new Orb(0, 0);
 function setup() {
 	createCanvas(500, 500);
 	noStroke();
-	fill(0);
+	fill(255);
 
   frameRate(60);
 
